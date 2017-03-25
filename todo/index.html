@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>todo list</h1>
+		<input placeholder="new item">
+		<button id="add">add</button>
+		<button id="clear">clear</button>
+		<ol>
+			<li>learn html</li>
+			<li>learn css</li>
+			<li>learn javascript</li>
+		</ol>
+
+		<script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
+		<script>
+		  firebase.initializeApp({
+		    apiKey: "AIzaSyCMIrxz12pg8WJz8NhM6RqMgBr1aGnDEM4",
+		    authDomain: "compliments-73fb6.firebaseapp.com",
+		    databaseURL: "https://compliments-73fb6.firebaseio.com",
+		    storageBucket: "compliments-73fb6.appspot.com",
+		    messagingSenderId: "567022977230"
+		  });
+		</script>
+		<script src="app.js"></script>
+	</body>
+</html>
