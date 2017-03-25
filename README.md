@@ -56,7 +56,7 @@ Here are some ideas for your `style.css` file:
 
 ## Wish list
 
-Now let's share a list of strings.
+Now let's share a list of strings. 
 
 ## Instant messenger
 
