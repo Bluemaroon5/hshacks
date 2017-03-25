@@ -1,6 +1,6 @@
 # HSHacks
 
-This is a collection of resources for HSHack-ers at my talk on using [Firebase](https://firebase.google.com) to develop web applications. Firebase makes it easy for your app to share and save data in real-time, and its generous free tier make it perfect for hackathon prototypes.
+This is a collection of resources for HSHack-ers at my talk on using [Firebase](https://firebase.google.com) to develop web applications. Firebase makes it easy for your app to share and save data in real-time, and its generous free tier and free hosting make it ideal for hackathon projects.
 
 ## Compliments
 
@@ -13,9 +13,9 @@ Let's start by sharing a single string. I'm going to set up three files - an `in
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<h1 id="text">Enter a compliment</h1>
-		<input id="compliment">
-		<button id="submit">submit</button>
+		<h1>Enter a compliment</h1>
+		<input>
+		<button>submit</button>
 		
 		<script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
 		<script>
@@ -47,16 +47,18 @@ var submit = document.getElementById('submit');
 var reference = firebase.database().ref();
 ```
 
-First we will [set up the button](compliments/app1.js), then the [
-
 Here are some ideas for your `style.css` file:
 
  - [light theme](compliments/style-light.css)
  - [dark theme](compliments/style-dark.css)
 
-## Wish list
+## Todo list
 
-Now let's share a list of strings. 
+Now let's share a list of strings. We will add to the list with `.push`, and read the entire list with `.on` and the `"value"` event.
 
 ## Instant messenger
+
+Now we will share arbitrary objects.
+
+## Firepad
 
